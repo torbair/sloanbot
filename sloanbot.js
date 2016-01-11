@@ -36,7 +36,7 @@ This bot demonstrates many of the core features of Botkit:
     -> http://howdy.ai/botkit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-
+require('newrelic');
 var Botkit = require('./node_modules/botkit/lib/Botkit.js')
 var mytoken = 'xoxb-17204212692-kmlzUqVhwsiNHw5jvaa2IP5n'
 var controller = Botkit.slackbot({
