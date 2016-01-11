@@ -1,1 +1,1 @@
-web: node sloanbot.js
+worker: node sloanbot.js

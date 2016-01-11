@@ -43,11 +43,12 @@ var controller = Botkit.slackbot({
 	debug: false,
 });
 
-controller.setupWebserver(3000,function(err,webserver) {
+/*controller.setupWebserver(3000,function(err,webserver) {
 
  controller.createWebhookEndpoints(controller.webserver);
 
 });
+*/
 
 var bot = controller.spawn(
   {
