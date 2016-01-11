@@ -49,8 +49,6 @@ controller.setupWebserver(process.env.PORT,function(err,webserver) {
 
 });
 
-require('newrelic');
-
 var bot = controller.spawn(
   {
 	  token:mytoken
