@@ -1,1 +1,1 @@
-node sloanbot.js
+web: node sloanbot.js
