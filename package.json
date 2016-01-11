@@ -1,0 +1,15 @@
+{
+  "name": "sloanbot-slack",
+  "description": "Sloanbot",
+  "version": "0.1.0",
+  "author": "Tor Bair",
+  "bugs": {},
+  "dependencies": {
+  },
+  "license": "MIT",
+  "main": "sloanbot.js",
+  "scripts": {
+    "start": "node sloanbot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
