@@ -38,7 +38,6 @@ This bot demonstrates many of the core features of Botkit:
 
 
 var Botkit = require('./lib/Botkit.js')
-var os = require('os');
 var mytoken = 'xoxb-17204212692-kmlzUqVhwsiNHw5jvaa2IP5n'
 var controller = Botkit.slackbot({
 	debug: false,
