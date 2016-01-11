@@ -1,15 +1,25 @@
 {
-  "name": "sloanbot-slack",
+  "name": "sloanbot",
+  "version": "1.0.0",
   "description": "Sloanbot",
-  "version": "0.1.0",
-  "author": "Tor Bair",
-  "bugs": {},
-  "dependencies": {
-  },
-  "license": "MIT",
   "main": "sloanbot.js",
   "scripts": {
-    "start": "node sloanbot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torbair/sloanbot.git"
+  },
+  "author": "torbair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torbair/sloanbot/issues"
+  },
+  "homepage": "https://github.com/torbair/sloanbot#readme",
+  "dependencies": {
+    "botkit": "0.0.5"
+  },
+  "engines": {
+	  "node":"4.2.3"
   }
 }
